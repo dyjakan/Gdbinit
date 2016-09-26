@@ -81,9 +81,9 @@ set $SHOWOBJECTIVEC = 1
 # set to 0 to remove display of cpu registers (default is 1)
 set $SHOWCPUREGISTERS = 1
 # set to 1 to enable display of stack (default is 0)
-set $SHOWSTACK = 0
+set $SHOWSTACK = 1
 # set to 1 to enable display of data window (default is 0)
-set $SHOWDATAWIN = 0
+set $SHOWDATAWIN = 1
 # set to 0 to disable colored display of changed registers
 set $SHOWREGCHANGES = 1
 # set to 1 so skip command to execute the instruction at the new location
@@ -117,9 +117,9 @@ set width 0
 set $SHOW_CONTEXT = 1
 set $SHOW_NEST_INSN = 0
 
-set $CONTEXTSIZE_STACK = 6
+set $CONTEXTSIZE_STACK = 8
 set $CONTEXTSIZE_DATA  = 8
-set $CONTEXTSIZE_CODE  = 8
+set $CONTEXTSIZE_CODE  = 10
 
 # __________________end gdb options_________________
 #
